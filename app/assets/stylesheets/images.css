@@ -1,0 +1,105 @@
+.pctf-img {
+    position: absolute;
+    top: 315px;
+    right: 430px;
+}
+.python-img {
+    position: absolute;
+    top: 200px;
+    right: 330px;
+}
+.ubuntu-img {
+    position: absolute;
+    top: 180px;
+    right: 505px;
+}
+.cpp-img {
+    position: absolute;
+    top: 350px;
+    right: 270px;
+}
+.js-img {
+    position: absolute;
+    top: 470px;
+    right: 370px;
+}
+.html-img {
+    position: absolute;
+    top: 320px;
+    right: 580px;
+}
+.excel-img {
+    position: absolute;
+    top: 460px;
+    right: 530px;
+}
+.css-img {
+    position: absolute;
+    top: 590px;
+    right: 460px;
+}
+.ghidra-img {
+    position: absolute;
+    top: 530px;
+    right: 770px;
+}
+.vsc-img {
+    position: absolute;
+    top: 400px;
+    right: 740px;
+}
+.sof-img {
+    position: absolute;
+    top: 300px;
+    right: 800px;
+}
+.latex-img {
+    position: absolute;
+    top: 530px;
+    right: 230px;
+}
+.rails-img {
+    position: absolute;
+    top: 535px;
+    right: 725px;
+}
+.gh-img {
+    position: absolute;
+    top: 240px;
+    right: 685px;
+}
+.copilot-img {
+    position: absolute;
+    top: 315px; 
+    right: 240px;
+}
+.nodejs-img {
+    position: absolute;
+    top: 620px;
+    right: 590px;
+}
+.ruby-img {
+    position: absolute;
+    top: 590px;
+    right: 340px;
+}
+.apple-img {
+    position: absolute;
+    top: 520px;
+    right: 650px;
+}
+.colab-img {
+    position: absolute;
+    top: 430px;
+    right: 892px;
+}
+.windows-img {
+    position: absolute;
+    top: 700px;
+    right: 750px;
+}
+.godot-img {
+    position: absolute;
+    top: 510px;
+    right: 920px;
+}

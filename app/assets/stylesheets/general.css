@@ -52,17 +52,13 @@ body {
     background-color: #888;
 }
 
-.navbar-dark {
-    background-color: #292929 !important;
-}
-
 .bg-d {
     background-color: #333 !important;
 }
 
 .horizontal-border {
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 300px;
+    padding-right: 300px;
   }
 
 .custom-button {
@@ -79,6 +75,7 @@ body {
     position: fixed !important;
     top: 0 !important;
     width: 100% !important;
+    background-color: #292929 !important;
 }
 
 html {
@@ -89,4 +86,32 @@ html {
   
 .content {
     flex: 1 !important;
+}
+
+.text-justify {
+    text-align: justify !important;
+}
+
+.link-s {
+    color: #66CCCC !important;
+}
+.link-s:hover {
+    color: #7cdfdf !important;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+  
+.flex-item {
+    flex: 1;
+}
+
+.centered {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

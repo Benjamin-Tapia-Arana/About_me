@@ -1,54 +1,76 @@
-<style>
-
-    .ctf-img {
-        position: absolute;
-        top: 215px;
-        right: 490px;
-    }
-    .python-img {
-        position: absolute;
-        top: 100px;
-        right: 400px;
-    }
-    .ubuntu-img {
-        position: absolute;
-        top: 100px;
-        right: 550px;
-    }
-    .cpp-img {
-        position: absolute;
-        top: 250px;
-        right: 340px;
-    }
-
-</style>
-
 <body>
-    
-    <br><br><br><br><br><br>
-    <div class="horizontal-border" >
-        <h1>Bienvenido a mi página</h1>
-        <br><br>
-        <h1>Bienvenido a mi página</h1>
-        <p>This is a dark mode home page.</p>
-        <button class="dark-mode-button">Learn More</button>
-    </div>
 
-    <div class="ubuntu-img">
-        <%= image_tag "ubuntu-logo2.png" %>
+    <div class="container" >
+        <div class="row justify-content-center">
+            <div class="col-12">
+                <br><br><br><br><br><br><br><br>
+                <div class="col-12">
+                    <div class="flex-container">
+                        <div class="container flex-item">
+                            <h1 class="display-4">Bienvenido a mi página</h1>
+                            <br>
+                            <p class="text-justify">
+                                Aquí podrás encontrar un poco de todo sobre mí. No solo podrás encontrar sobre mis habilidades como ingeniero y programador, sino que
+                                encontrarás que estas páginas son una especie de repositorio de actividades, hobbies y cositas de relevancia para mí. Sin más que aclarar;
+                                te doy la bienvenida y disculpas de antemano por el diseño (no es mi fuerte).
+                            </p>
+                        </div>
+                        <div class="container flex-item centered">
+                            <p class="">Descarga mi currículum</p>
+                            <br>
+                            <a href="<%= url_for(:controller => 'downloads', :action => 'curriculum') %>" download="TapiaAranaBenjamin_CV.pdf">
+                                <%= image_tag "pdf-logo2.png" %>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <br><br><br>
+            </div>
+            <div class="col-12">
+                <h2 class="display-6">Sobre mí</h2>
+                <br>
+                <div class="col-12">
+                    <p class="text-justify">
+                        Soy un estudiante de Ingeniería Civil en Ciencias de la Computación con concentración en Modelamiento Matemático y minor en Cine. Actualmente
+                        formo parte del cuerpo de ayudantes de mi escuela, especificamente como ayudante de cátedra en Programación y corrector en Base de Datos y
+                        Álgebra Lineal. Además, tengo otro tipo de experiencias laborales no relacionadas directamente con la ingeniería, habiendo trabajando como
+                        coordinador de eventos, como garzón y atendiendo una botillería.
+                    </p>
+                    <p class="text-justify">Me apaciona el cine, la fotografía y la música clásica. Me considero un lector apasionado, en especial de la literatura
+                        latinoamericana. Soy horrible cuidando plantas, pero me encanta la naturaleza, y tengo y siempre he tenido muchas mascotas. Me considero
+                        alguien curioso que siempre esta aprendiendo cosas nuevas, aunque a veces nada útile. Además, adoro el mundo de los videojuegos, a pesar de
+                        que cada vez tengo menos tiempo para jugarlos.
+                    </p> 
+                    <p class="text-justify">En cuanto a mis habilidades como programador, tengo experiencia en lenguajes como Python, C, C++, Ruby, JavaScript, HTML, CSS
+                        y SQL. Además, tengo experiencia en el uso de frameworks como Ruby on Rails y NodeJS. También tengo experiencia en el uso de herramientas de
+                        control de versiones como Git. Últimamente me he adentrado en el desarrollo de videojuegos con el motor Godot en mi tiempo libre.
+                    </p>
+                </div>
+                <br><br><br>
+                <h2 class="display-6">Datos personales</h2>
+                <br>
+                <div class="col-10">
+                    <p class="text-justify">
+                        <strong>Nombre:</strong> Benjamin A. Tapia Arana
+                    </p>
+                    <p class="text-justify">
+                        <strong>Nacionalidad:</strong> Chilena
+                    </p>
+                    <p class="text-justify">
+                        <strong>Fecha de nacimiento:</strong> 25 de enero de 2000
+                    </p>
+                    <p class="text-justify">
+                        <strong>Edad:</strong> 24 años
+                    </p>    
+                    <p class="text-justify">
+                        <strong>Residencia:</strong> Santiago, Chile
+                    </p>
+                    <p class="text-justify">
+                        <strong>Correo electrónico:</strong> <a href="mailto:batapia1@miuandes.cl" class="link-s">benjamin.tapia@example.com</a>
+                    </p>
+                </div>   
+            </div>
+        </div>
     </div>
-
-    <div class="python-img">
-        <%= image_tag "python-logo2.png" %>
-    </div>
-
-    <div class="ctf-img">
-        <%= image_tag "picoctf-logo2.png" %>
-    </div>
-
-    <div class="cpp-img">
-        <%= image_tag "cpp-logo2.png" %>
-    </div> 
-     
 
 </body>
